@@ -5,7 +5,7 @@ body {
     font-family: arial;
 }
 
-.wd-search-rounded {
+.wd-search-round{
    background-color: darkgrey;
     color: white;
     font-size: 15px;
@@ -23,7 +23,7 @@ body {
   color: rgb( 101, 120, 150);
 }
 
-.wd-gear-class {
+.wd-gear {
   position: absolute;
   top: 42px;
   padding-right: 12px;
@@ -34,11 +34,11 @@ body {
   cursor: pointer;
 }
 
-.wd-bold {
+.wd-bold{
 font-weight: bold;
 }
 
-.wd-full-container {
+.wd-full-div {
     border-width: 2px;
     border-color: rgb(47, 51, 54);
     border-style: solid;
@@ -46,13 +46,13 @@ font-weight: bold;
     border-bottom: none;
     margin-top: -23px;
 }
-.wd-first-container {
+.wd-first-div {
     display: flex;
 }
 
-.wd-first-box {
+.wd-first-set {
   background-color: darkgrey;
-  width: 1050px;
+  width: 1327px;
   margin: 30px;
   border-radius: 65px;
 }
@@ -62,7 +62,7 @@ font-weight: bold;
   font: 100px;
 }
 
-.wd-gear {
+.wd-gear-icon {
 border: none;
 color: rgb(29,161,242);
 margin: none;
@@ -71,7 +71,7 @@ width: 42px;
 height: 42px;
  }
 
-.wd-second-container {
+.wd-second-div{
    top: 30px;
    right: 30px;
    background-color: black;
@@ -81,7 +81,7 @@ height: 42px;
    border: none;
 }
 
-.wd-second-box{
+.wd-second-set{
     display: flex;
     justify-content: space-between;
     color: rgb( 110, 118, 125);
@@ -90,7 +90,7 @@ height: 42px;
     padding: 16px;
     margin-top: -10px;
 }
-.wd-first-element{
+.wd-first-hyperlink{
     color: rgb(29,161,242);
 }
 
@@ -101,11 +101,11 @@ height: 42px;
   border-radius: 2px;
 }
 
-.wd-sixth-element{
+.wd-sixth-hyperlink{
   padding-right: 10px;
 }
 
-.wd-border-below {
+.wd-thick-border {
     width: 100%;
     height: 12px;
     margin-left: auto;
@@ -120,7 +120,7 @@ hr {
     border-style: solid;
     padding: 0px;
 }
-.wd-third-box {
+.wd-suggested-posts{
 font-family: arial;
 padding: 16px;
 }
@@ -133,7 +133,7 @@ padding: 16px;
     color: white;
 }
 
-.wd-number-tuit {
+.wd-tuits {
     font-size: 13px;
     color: rgb(110, 118, 125);
 }
@@ -149,7 +149,7 @@ padding: 16px;
     font-size: 13px;
 }
 
-.wd-more-icon {
+.wd-ellipsis {
     float: right;
     padding-right: 16px;
 }
