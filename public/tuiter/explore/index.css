@@ -48,11 +48,12 @@ font-weight: bold;
 }
 .wd-first-div {
     display: flex;
+    margin-right: 50px;
 }
 
 .wd-first-set {
   background-color: darkgrey;
-  width: 1327px;
+  width: 1315px;
   margin: 30px;
   border-radius: 65px;
 }
