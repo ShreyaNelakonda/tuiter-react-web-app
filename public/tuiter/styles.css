@@ -6,12 +6,3 @@ body{
 .wd-bold {
     font-weight: bold;
 }
-
-.wd-full-container {
-    border-width: 2px;
-    border-color: rgb(47, 51, 54);
-    border-style: solid;
-    border-top: none;
-    border-bottom: none;
-    margin-top: -23px;
-}
