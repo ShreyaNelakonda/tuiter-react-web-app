@@ -219,11 +219,10 @@ font-size:13px;
 
 .wd-terms-2 {
 color:grey;
-display: flex;
-justify-content: space-between;
+
 font-size:13px;
-margin-top:-45px;
-padding:15px;
+margin-top:-30px;
+padding:17px;
 }
 
 .wd-grey-border{
@@ -232,5 +231,8 @@ padding:15px;
     float: right;
     padding-right: 16px;
 }
+.wd-js{
+margin-left:-10px;
+margin-right:10px;}
 
 
