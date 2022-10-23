@@ -1,0 +1,37 @@
+.wd-link {
+    position:relative;
+    display :inline;
+    margin-left:25px;
+    margin-top:-25px;
+}
+.wd-margin {
+    margin-left :-15px;
+    margin-top: -10px;
+}
+.wd-home {
+    margin-left:-5%
+}
+.wd-ellipsis-right {
+    margin-left:170%;
+}
+.wd-img {
+    width:100%;
+    height:100%;
+    margin-left:10%;
+}
+
+.wd-share {
+    padding-top:2%;
+    margin-bottom:1%;
+    padding-left:12%;
+    width:100%;
+    display :flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.wd-caption {
+    width:150%;
+}
+
+
