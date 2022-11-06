@@ -10,7 +10,7 @@ const ProfileImages = () => {
             <div className="">
                 <img className="position-absolute rounded-circle"
                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pHIbKDDLOMyyF4aSRtf1iYB7LqKrwFq6LQ&usqp=CAU" alt=""
-                     style={{height: "auto", width: "50px", height: "50px", marginLeft:"15px", marginTop: "-70px"}}/>
+                     style={{height: "auto", width: "80px", height: "80px", marginLeft:"15px", marginTop: "-65px"}}/>
             </div>
             <br/>
         </>
