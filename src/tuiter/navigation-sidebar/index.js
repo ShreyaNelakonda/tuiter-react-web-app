@@ -22,7 +22,7 @@ const active = paths[2];
             <i className="fa fa-hashtag"></i>
             <span className ="d-none d-xl-block wd-link">Explore</span></Link>
 
-            <Link to="/" className="list-group-item">
+            <Link to="../a7" className="list-group-item">
             <i className="fab fa-slack"></i>
             <span className ="d-none d-xl-block wd-link">Labs</span></Link>
 
@@ -42,9 +42,9 @@ const active = paths[2];
             <i className="fa fa-list"></i>
             <span className ="d-none d-xl-block wd-link">Lists</span></a>
 
-            <a className="list-group-item">
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile' ? 'active' : ''}`} >
             <i className="fa fa-user"></i>
-            <span className ="d-none d-xl-block wd-link">Profile</span></a>
+            <span className ="d-none d-xl-block wd-link">Profile</span></Link>
 
             <a class="list-group-item">
             <span class="fa-stack fa-1x wd-margin">
