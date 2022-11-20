@@ -6,7 +6,7 @@ import {updateTuitThunk, createTuitThunk, deleteTuitThunk, findTuitsThunk}
 const currentUser = {
     "userName": "NASA",
     "handle": "@nasa",
-    "image": "nasa.png",
+    "image": "https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png",
 };
 
 const templateTuit = {
