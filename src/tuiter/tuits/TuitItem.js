@@ -32,15 +32,16 @@ const TuitItem = (
             <div className="row">
                 <div className="col-2">
                     <img className="wd-round-image"
-                                             src={tuit.image} height="40px" width="40px" className="rounded-circle" alt=""/>
+                                             src="https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png"
+                                             height="40px" className="rounded-circle" alt=""/>
                 </div>
                 <div className="col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-9">
                     <div>
                         <i className="bi bi-x-lg float-end"
                             onClick={() => deleteTuitHandler(tuit._id)}></i>
-                        <span className="fw-bolder me-2">{tuit.userName}</span>
+                        <span className="fw-bolder me-2">NASA</span>
                         <i className="bi bi-patch-check-fill text-primary me-2"></i>
-                        {tuit.handle} . {tuit.time}</div>
+                        @nasa · 2h</div>
                     <div className="mb-3 me-3">{tuit.tuit}</div>
                     <TuitStats tuit={tuit}/>
                 </div>
