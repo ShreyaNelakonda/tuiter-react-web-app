@@ -1,5 +1,6 @@
 import axios from 'axios';
-const TUITS_API = 'https://tuiter-node-server-app.herokuapp.com/api/tuits';
+const TUITS_API = 'https://tuiter-node-server-app9.herokuapp.com/api/tuits';
+
 
 export const createTuit = async (tuit) => {
     const response = await axios.post(TUITS_API, tuit)
